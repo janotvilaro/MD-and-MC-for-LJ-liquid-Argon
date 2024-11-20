@@ -1,0 +1,11 @@
+10000
+500
+39.948d0
+3.405d0,119.8d0
+1.d-2
+********************************************************************
+1.nconf(number of configurations)
+2.natoms
+3.mass
+4.sigma,epsil (LJ parameters in A and K)
+5.deltat (time step in ps)
