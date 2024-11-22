@@ -1,6 +1,6 @@
 # MD-for-LJ-liquid-Argon
 
-This program simulates liquid Argon using a Leonard JOnes (LJ) potential and allows to calculate the radial distribution function (RDF), the pressure and the energy.
+This program simulates liquid Argon using a Lennard Jones (LJ) potential and allows to calculate the radial distribution function (RDF), the pressure and the energy.
 
 Moreover it incorporates a refinement of the employed Boundary Conditions which allow to calculate the velocity autocorrelation function (VACF) and the mean square displancement (MSD), providing insights into the system dynamics.
 
