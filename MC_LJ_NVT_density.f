@@ -226,7 +226,8 @@ c              mcmove
       enddo
       call ener(r,rc,boxlength,natoms,iio,epotn) !! energy new configuration
       if(rand().gt.exp(-beta*(epotn-epoto))) then !! inverse acceptance law
-        ndumped = ndumped +1 !!COntador de cuantas configuraciones recghazamos. Lo necesitamos para saber si la delta elegida es adecuado.
+        ndumped = ndumped +1 !! Counter of how many configurations are being rejected. We need it to know whether the chosen Delta parameter is the one that makes de simulation robust or not.
+
         do l=1,3 
           r(l,iio) = ro(l) !! give particle random displacement !! reverse the replacement r(o) by rn
         enddo
@@ -283,6 +284,7 @@ c        subroutine Lennard-Jones-Montecarlo
         g(ig) = g(ig) +2 ! contribution for particle i and j. We add two because we are only looking at each pair once, namely particle 1 and 4. But 4 also has 1 at a ditance r. Since we'll divide by num of particles later on, we add the contribution of all the pairs, at once
       endif
 
+       !! LJ potential computation
       if (rr.lt.rc) then
          ynvrr2 = 1.d0/rr2
          ynvrr6 = ynvrr2*ynvrr2*ynvrr2
