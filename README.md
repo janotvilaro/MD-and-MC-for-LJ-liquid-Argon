@@ -30,4 +30,4 @@ Moreover, the code can be used to compute the RDF, the energy and the pressure o
 ## Example of the equation of state
 
 The following plot shows the numerically-obtained equation of state for liquid Argon at T=2 (in reduced units), as an example of some of the results that can be obtained by performing such a MC simulation.
-![Equation of state for LJ fluid (Argon) using MC methods](figures/energy_convergence.jpg)
+![Equation of state for LJ fluid (Argon) using MC methods](figures/P(rho).jpg)
