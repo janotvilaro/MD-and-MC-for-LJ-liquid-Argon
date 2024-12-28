@@ -27,7 +27,7 @@ This program simulates liquid Argon on the (N,V,T) ensemble using a Lennard Jone
 
 Moreover, the code can be used to compute the RDF, the energy and the pressure of the system for different densities, leading to the equation of state of our LJ fluid, which relates pressure as a function of density.
 
-## Example of the Energy conversion over the iterations
+## Example of the equation of state
 
 The following plot shows the numerically-obtained equation of state for liquid Argon at T=2 (in reduced units), as an example of some of the results that can be obtained by performing such a MC simulation.
 ![Equation of state for LJ fluid (Argon) using MC methods](figures/energy_convergence.jpg)
