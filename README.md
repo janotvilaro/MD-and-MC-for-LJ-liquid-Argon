@@ -1,6 +1,6 @@
 In this repository you can find a Molecular Dynamics simulation for liquid Argon and Monte Carlo simulation for the same species. A brief overview of both methods is given in the paragraphs that follow.
 
-Note that the codes and files required for the MC simulation are all inside the folder named "MC".
+
 
 # MD-for-LJ-liquid-Argon
 
